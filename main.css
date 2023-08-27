@@ -1,0 +1,17 @@
+.options, .title {
+    text-align: center;
+    color: #e5a120;
+}
+
+img {
+    position: inherit;
+    max-width: 600px;
+    max-height: 450px;
+}
+
+.menu-list {
+    list-style: square;
+    float: right;
+    flex-flow: row;
+}
+
