@@ -1,4 +1,4 @@
-.options, .title {
+.title {
     text-align: center;
     color: #e5a120;
 }
@@ -9,9 +9,22 @@ img {
     max-height: 450px;
 }
 
-.menu-list {
-    list-style: square;
-    float: right;
-    flex-flow: row;
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-inline-end: 5%;    
 }
 
+.menu-list {
+    list-style: inside;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list > li {
+    margin: 3px;
+    border: 2px solid sienna;
+    padding-right: 5px;
+    background-color: #dda949;
+    border-radius: 4px;
+}
